@@ -1,0 +1,36 @@
+@import "components/card-profile.css";
+@import "components/card-detail.css";
+@import "components/card-talk.css";
+@import "components/footer.css";
+
+/* Fonts */
+
+.div{
+  background-color: brown;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  background-image: url(http://yesofcorsa.com/wp-content/uploads/2016/03/758462_volcano.jpg);
+}
+
+.banner-discover {
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  background-image: url(https://www.meatandtravel.com/wp-content/uploads/2014/11/Mayon-Volcano-rainy.jpg);
+}
+
+.banner-discover p {
+  color: white;
+}
+
+.banner p {
+  color: white;
+}
+
+#title-name{
+  color: white;
+}

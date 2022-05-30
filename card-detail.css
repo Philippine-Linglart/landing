@@ -1,0 +1,145 @@
+.card-detail-box{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-auto-rows: auto;
+grid-gap: 1rem;
+flex-wrap: wrap;
+margin-bottom: 50px;
+}
+
+.card-detail {
+  overflow: hidden;
+  height: 100px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  align-content: center;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 0.5rem;
+  justify-content: center;
+  transition: 1s;
+}
+
+.card-detail:hover {
+  opacity: 0.7;
+}
+
+.card-detail h3 {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 20px;
+  color: white;
+  transition: 0.7s;
+  align-self: center;
+}
+
+.card-detail:hover h3 {
+  transform: scale(1.1)
+}
+
+/* FOR INDEX () */
+
+#diving-card{
+  background-image: url(http://yesofcorsa.com/wp-content/uploads/2020/01/4K-Eruption-Of-Volcano-Photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#rugby-card{
+  background-image: url(https://i.pinimg.com/originals/e9/e0/40/e9e040e5d8551cec3dd939cf9d0be381.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bbq-card{
+  background-image: url(https://i.pinimg.com/originals/fa/32/83/fa3283e592cd2ce46a6acadd79c696a7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+/* FOR PRODUCT */
+
+#a-card{
+  background-image: url(http://yesofcorsa.com/wp-content/uploads/2020/01/4K-Eruption-Of-Volcano-Photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#b-card{
+  background-image: url(https://i.pinimg.com/originals/e9/e0/40/e9e040e5d8551cec3dd939cf9d0be381.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#b-card{
+  background-image: url(https://i.pinimg.com/originals/fa/32/83/fa3283e592cd2ce46a6acadd79c696a7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#c-card{
+  background-image: url(http://yesofcorsa.com/wp-content/uploads/2020/01/4K-Eruption-Of-Volcano-Photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#d-card{
+  background-image: url(https://www.bwallpaperhd.com/wp-content/uploads/2021/03/VolcanoLlaima.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#e-card{
+  background-image: url(https://www.futurity.org/wp/wp-content/uploads/2017/10/volcanic-eruption-dusk_1600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#f-card{
+  background-image: url(https://www.blogsanteplus.com/wp-content/uploads/2020/06/une-catastrophe-massive-une-eruption-volcanique-risque-darriver-dans-les-prochaines-annees-1200x628.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#g-card{
+  background-image: url(https://www.fontica.com/wp-content/uploads/2020/04/Aogashima-Volcano-Fall-1024x683.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.card-detail-product {
+  overflow: hidden;
+  height: 100px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  align-content: center;
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 0.5rem;
+  justify-content: center;
+  transition: 1s;
+  height: 200px;
+}
+
+.card-detail-product:hover {
+  opacity: 0.7;
+}
+
+.card-detail-product h3 {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 20px;
+  color: white;
+  transition: 0.7s;
+  align-self: center;
+}
+
+.card-detail-product:hover h3 {
+  transform: scale(1.1)
+}
